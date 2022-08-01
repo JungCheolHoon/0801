@@ -5,7 +5,7 @@ public class Product {
 	String color;
 	
 	void display(){
-		System.out.printf("제품명 : %s,\t가격 : %d원,\t색상 : %s,\t" , name,price,color);
+		System.out.printf("제품명 : %s,\t가격 : %d원,\t색상 : %s\n" , name,price,color);
 	
 	}	
 }
